@@ -1,11 +1,30 @@
+
+font-family: 'Barrio', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Bahiana', cursive;
+font-family: 'Oswald', sans-serif; 
+
+
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Lucida', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container-fluid div {
   /*background-color: #333;*/
   border-left: 1px solid white;
   border-right: 1px solid white;
+}
+
+h1 {
+	font-family: 'Barrio', cursive;
+	font-size: 60px;
+}
+
+img {
+	padding: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 15px;
 }
