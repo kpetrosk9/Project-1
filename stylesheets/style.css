@@ -2,6 +2,7 @@
 font-family: 'Barrio', cursive;
 font-family: 'Bahiana', cursive;
 font-family: 'Oswald', sans-serif; 
+font-family: 'Reenie Beanie' cursive;
 
 
 body {
@@ -17,8 +18,8 @@ body {
 }
 
 h1 {
-	font-family: 'Barrio', cursive;
-	font-size: 50px;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 65px;
 	text-align: left;
 }
 h2 {
