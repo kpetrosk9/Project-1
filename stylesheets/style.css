@@ -17,10 +17,16 @@ body {
   border-right: 10px solid white;
 }
 
+.sticky-top {
+	position: fixed;
+
+}
+
 h1 {
 	font-family: 'Reenie Beanie', cursive;
 	font-size: 65px;
 	text-align: left;
+	background-color: white;
 }
 h2 {
 	font-family: 'Oswald', cursive;
@@ -39,7 +45,14 @@ img {
 }
 
 ul {
+	position: fixed;
+	background-color: white;
+	font-family: 'Oswald', cursive;
+	font-size: 15px;
+}
 
+main {
+	padding: 150px 0 0 0 !important;
 }
 
 .image-div {
@@ -52,7 +65,7 @@ ul {
 	font-family: 'Oswald';
 	font-size: 40px;
 	text-align: center;
-	padding-top: 425px;
+	padding-top: 390px;
 	color: white;
 }
 
@@ -66,4 +79,25 @@ ul {
 
 .chicago {
 	background-image: url('../images/Chicago.jpg');
+}
+.san_diego {
+	background-image: url('../images/San_Diego.jpg');
+}
+.santorini {
+	background-image: url('../images/Santorini.jpg');
+}
+.rhodes {
+	background-image: url('../images/Rhodes.jpg');
+}
+.crete{
+	background-image: url('../images/Crete.jpg')
+}
+.symi {
+	background-image: url('../images/Symi.jpg');
+}
+.athens {
+	background-image: url('../images/Athens.jpg');
+}
+.prague {
+	background-image: url('../images/Prague.jpg');
 }
