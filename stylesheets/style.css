@@ -19,6 +19,11 @@ body {
 
 .sticky-top {
 	position: fixed;
+	background-color: white;
+	background-size: 100%;
+	background-position: center;
+	padding-bottom: 0px;
+	width: 100%;
 
 }
 
@@ -27,6 +32,10 @@ h1 {
 	font-size: 65px;
 	text-align: left;
 	background-color: white;
+}
+
+button {
+	align-items: left;
 }
 h2 {
 	font-family: 'Oswald', cursive;
@@ -49,6 +58,13 @@ ul {
 	background-color: white;
 	font-family: 'Oswald', cursive;
 	font-size: 15px;
+}
+nav {
+	background-color:white;
+	width: 100%;
+}
+.navbar {
+	background-color:white;
 }
 
 main {
@@ -100,4 +116,15 @@ main {
 }
 .prague {
 	background-image: url('../images/Prague.jpg');
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 500px){
+	h1 {
+		font-size: 30px;
+	}
 }
